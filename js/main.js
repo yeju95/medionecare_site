@@ -9,7 +9,7 @@ var swiper = new Swiper(".swiper", {
         clickable: true,
     },
     autoplay: {
-        delay: 4000,
+        delay: 3000,
         disableOnInteraction: false,
     },
 });
@@ -59,26 +59,6 @@ $(function(){
     });
 
 });
-
-function initMap() {
-  const myLatLng = {  
-      lat:37.500148845880915, 
-      lng:127.02895351272205
-  }
-  //위도(latitude), 경도(longitude)
-
-  const map = new google.maps.Map(document.getElementById("map"), {
-      center: myLatLng,
-      zoom: 18,  //확대된 상태 1~20     
-  });
-  //구글 API map에 들어있는 Map함수 실행
-
-  const marker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-  }); 
-  //마커표시
-}
 
 //햄버거 버튼을 클릭하면
 $('.open_gnb').click(function(){

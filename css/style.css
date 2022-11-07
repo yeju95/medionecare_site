@@ -17,6 +17,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 body {
@@ -172,6 +173,9 @@ header {
   color: rgba(255, 255, 255, 0.7)
 }
 
+.swiper-pagination {display:none;}
+/*.d_hidden {}
+.m_hidden {display:none}*/
 
 #wrap {
   width: 100%;
@@ -1651,6 +1655,20 @@ header {
   left: 195px;
   z-index: 100;
 }
+/*.d_hidden {display:none}
+.m_hidden {display:block;
+width:700px;}*/
+
+.hos, .event, .ent {
+  width: 241px;
+  height: 100px;
+  margin: 17px 19px;
 }
+ .hos img, .event img,.ent img {display:none;}
+
+ .hos p, .event p, .ent p {
+  padding: 10px;
+}
+
 }
 
