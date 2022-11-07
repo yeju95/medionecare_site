@@ -353,14 +353,14 @@ header {
 
 .middle {
   position: relative;
-  width: 724px;
+  width:947px;
   padding: 0 110px;
   top: -42px;
 }
 
 .last {
   position: relative;
-  width: 543px;
+  width:991px;
   padding: 0 222px;
   margin: auto;
   top: -85px;
@@ -1450,6 +1450,9 @@ header {
     font-size: 41px;
   }
 
+  #second_section {
+    height: 587px;}
+
   .progrem {
     padding: 0;
     left: -22px;
@@ -1471,7 +1474,7 @@ header {
 
   .middle {
     position: absolute;
-    width: 0;
+    width: 239px;
     padding: 0;
     top: 102px;
     left: 59px
@@ -1494,6 +1497,7 @@ header {
     width: 239px;
     left: 0;
   }
+
 
   .third_text p {
     font-size: 12px;
@@ -1669,6 +1673,109 @@ width:700px;}*/
  .hos p, .event p, .ent p {
   padding: 10px;
 }
+#third_section {
+  width: 303px;}
 
+  .third_img_box {
+    width: 303px;
 }
 
+.third_img_box p {
+  font-size: 4px;
+  margin-top: 20px;
+  width: 148px;
+}
+.first, .second {
+  margin:0;
+}
+.third {
+  margin-right:0;
+}
+.fourth {
+  margin-left:0;
+}
+.fourth img {
+  height: 116px;
+  width: 121px;
+}
+.fourth_box {
+  width:360px;
+}
+.four_left {
+  width:359px;
+}
+.four_left h3 {
+  margin-left:0;
+}
+.four_middle {
+  width:312px;
+  height:342px;
+}
+.four_right {
+  width:352px;
+}
+#fourth_section {
+  height: 1483px;
+}
+#fifth_section img {
+  width: 363px;
+}
+#sixth_section {
+  width:362px;
+}
+#sixth_section img {
+  width:333px;
+}
+.six_text .line {
+  width:234px;
+}
+#sixth_section 
+.six_text p {
+  width:223px;
+}
+#seventh_section .cen_ {
+  width: 297px;
+}
+.seventh_img {
+  width:359px;
+}
+#seventh_section .cen {
+  width: 346px;
+}
+#ninth_section .cente {
+  width: 361px;
+}
+#ninth_section .nine_img {
+  margin: 50px 35px;
+}
+.nine_text {
+  margin:50px 84px;
+}
+.last {position:relative;
+right:0;
+top:0;
+width:100%;padding:0}
+.eighth_text {margin:0;}
+
+.right_img iframe {width:356px}
+.together {
+  width:359px;
+}
+.togerther img{
+  width:300px;}
+
+  #eleventh_section .together img {
+    width:300px;
+}
+
+    .footer_menu {width:360px;}
+    .footer_menu li {
+      margin: 0;
+      padding:0 5px;
+}
+.footer .footer_text {
+  width: 342px;
+  font-size:12px;
+}
+}
+}
