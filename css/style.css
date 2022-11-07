@@ -1629,5 +1629,28 @@ header {
     width: 458px;
     margin-top: 44px;
 }
+
+@media (max-width:420px){
+
+  .menu_bar h2 {
+     left: 0}
+  .menu_bar h2 a {
+    position:relative;
+    width: 500px;
+    left: 35%;
+
+  }
+
+.gnb {
+    width: 18%;
+    height: 833px;
+}
+
+.open_gnb.open {
+  top: 0;
+  left: 195px;
+  z-index: 100;
+}
+}
 }
 
