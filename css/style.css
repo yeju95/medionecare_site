@@ -176,8 +176,8 @@ header {
   display: none;
 }
 
-/*.d_hidden {}
-.m_hidden {display:none}*/
+.d_hidden {}
+.m_hidden {display:none}
 
 #wrap {
   width: 100%;
@@ -1418,6 +1418,9 @@ header {
   .gnb>ul>li {
     padding: 10px 0;
   }
+  .d_hidden {display:none}
+  .m_hidden {display:inline-block;
+position:relative;width:500px;height:700px;}
 
   .map {
     padding: 0;
@@ -1770,9 +1773,8 @@ header {
       z-index: 100;
     }
 
-    /*.d_hidden {display:none}
-.m_hidden {display:block;
-width:700px;}*/
+.m_hidden {
+width:700px;}
 
     .hos,
     .event,

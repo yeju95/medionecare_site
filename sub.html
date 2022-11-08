@@ -7,21 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>메디원케어 문의</title>
   <link rel="stylesheet" href="css/sub_style.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
   <div class="menu">
     <header>
       <div class="menu_bar">
-        <h2><a href="./index.html">메디원케어</a></h2>
+        <h2 class="logo">
+          <a href="./index.html">
+            <span class="hidden"> 메디원케어</span>
+          </a>
+        </h2>
+        <a href="#" class="open_gnb"><span>메뉴열기</span></a>
         <nav class="gnb">
-          <ul>
-            <li><a href="./index.html#first_section">메디원케어<span class="bar"></span></a></li>
-            <li><a href="./index.html#second_section">의료복지<span class="bar"></span></a></li>
-            <li><a href="./index.html#third_section">병원마케팅<span class="bar"></span></a></li>
-            <li><a href="./index.html#fifth_section">서비스<span class="bar"></span></a></li>
-            <li><a href="./index.html#tenth_section">제휴사<span class="bar"></span></a></li>
-            <li><a href="./index.html#eleventh_section">함께하기<span class="bar"></span></a></li>
+          <p class="m_home">
+            <a href="#"><span class="hidden">메디원케어</span></a>
+          </p>
+          <ul class="gnb_nav">
+            <li class="dth1_1"><a href="./index.html#first_section " class="dth1_a">메디원케어<span class="bar"></span></a></li>
+            <li class="dth1_1"><a href="./index.html#second_section" class="dth1_a">의료복지<span class="bar"></span></a></li>
+            <li class="dth1_1"><a href="./index.html#third_section" class="dth1_a">병원마케팅<span class="bar"></span></a></li>
+            <li class="dth1_1"><a href="./index.html#fifth_section" class="dth1_a">서비스<span class="bar"></span></a></li>
+            <li class="dth1_1"><a href="./index.html#tenth_section" class="dth1_a">제휴사<span class="bar"></span></a></li>
+            <li class="dth1_1"><a href="./index.html#eleventh_section" class="dth1_a">함께하기<span class="bar"></span></a></li>
           </ul>
         </nav>
         <!--gnb end-->
@@ -34,8 +43,8 @@
 
       <legend>메디원케어 문의</legend>
       <select id="choose">
-        <option class="grey">-------------------------------------------제품 유형
-          선택-------------------------------------------</option>
+        <option class="grey">-----------제품 유형
+          선택-----------</option>
         <option value="service">서비스 도입 문의</option>
         <option value="hospital entry">병원입점문의</option>
         <option value="Partnership">제휴문의</option>
@@ -53,7 +62,7 @@
         <label for="name" id="font">담당자*</label>
         <input type="text" id="name" title="담당자 입력">
 
-        <label for="email" id="font">이메일</label>
+        <label for="email" id="font">이메일 </label>
         <input type="text" id="email" title="이메일 입력">
 
         <label for="quest" id="font">문의사항*</label>
@@ -64,6 +73,49 @@
       <input type="submit" value="문의하기">
     </form>
   </div>
-</body>
 
+  <div class="footer">
+    <div class="cent">
+      <img src="image/f_logo.png" alt="footer_logo">
+      <div class="footer_menu">
+        <ul>
+          <li><a href="">회사소개</a></li>
+          <li><a href="">회사소개</a></li>
+          <li><a href="">회사소개</a></li>
+          <li><a href="">회사소개</a></li>
+        </ul>
+      </div>
+      <div class="icon">
+        <ul class="right">
+          <li>
+            <img src="image/2553040_facebook_fb_feed_logo_media_icon.png" alt="페이스북">
+          </li>
+          <li>
+            <img src="image/2553049_feed_media_news_sns_social_icon.png" alt="트위터" class="hover">
+          </li>
+          <li>
+            <img src="image/2553043_feed_instagram_media_photo_picture_icon.png" alt="인스타" class="hover">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer_text">
+      <p>상호명 : (주)브리즈스토리</p>
+      <p>대표 : 한창희 | 대표번호 : 070-4220-0939</p>
+      <p>사업자번호 : 271-87-01238</p>
+      <p>주소 : 서울시 강동구 성내로6길 34-21 재진빌딩 1층 101호</p>
+      <p>통신판매업신고증 : 제2020-서울강동-1866호 | 외국인환자유치업자 : 제 A-2021-01-01-4213호</p>
+    </div>
+  </div>
+  <!--cent end-->
+</div>
+<!--footer end-->
+  
+</body>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn80UaKmA5OsBR_5IGv5SyGEk721GLP94&callback=initMap"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </html>

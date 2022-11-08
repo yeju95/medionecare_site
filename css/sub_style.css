@@ -38,6 +38,17 @@ h1 {
   color: #2a738b;
 }
 
+.hidden {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  font-size: 1px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -66,9 +77,25 @@ header {
   background: url("../image/logo_k.png") no-repeat;
 }
 
+.open_gnb {
+  display: none;
+}
+
+.m_home {
+  display: none;
+}
+
+.dth1_a {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 20px 20px 0;
+}
+
 .gnb {}
 
 .gnb>ul {
+  display: block;
   padding-left: 320px;
   float: right;
 }
@@ -197,4 +224,404 @@ input[type="submit"]:hover {
 background: #a1addb;
 color: #ffffff;
 transform: translate(2px, 2px);
+}
+.footer {
+  background: #2d3a75;
+
+}
+
+.footer .cent {
+  width: 1180px;
+  height: 207px;
+  margin: auto;
+
+
+}
+
+.footer img {
+  display: inline-block;
+  position: relative;
+  top: 146px;
+  width: 180px;
+}
+
+.footer .footer_text {
+  display: inline-block;
+  position: relative;
+  padding-left: 552px;
+  line-height: 27px;
+  top: -67px;
+}
+
+.footer_menu {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+.footer_menu ul {}
+
+.footer_menu li {
+  display: inline-block;
+  margin: 0 20px
+}
+
+.footer_menu li a {
+  color: #fff
+}
+
+.footer_text p {
+  color: #fff
+}
+
+.icon {
+  position: relative;
+  width: 500px;
+  float: right;
+  top: -200px
+}
+
+.icon .right {
+  float: right;
+  position: absolute;
+  margin: 70px 0px 0 20px;
+  width: 500px;
+}
+
+.icon .right img {
+  float: right;
+  cursor: pointer;
+  padding: 30px;
+  width: 35px;
+  height: 35px
+}
+
+@media (max-width:1200px) {
+  .menu_bar {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .menu_bar h2 {
+    left: 50%
+  }
+
+  .menu_bar h2 a {
+    display: block;
+    width: 1173px;
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    transform: translate(-85px);
+
+  }
+
+  .logo {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: auto;
+    transform: translate(0);
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo a {
+    padding-top: 17px;
+    width: 80px;
+  }
+
+  .logo a:before {
+    width: 80px;
+    background-size: 80px auto;
+  }
+
+  .gnb {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: auto;
+    background: #fff;
+    z-index: 10;
+  }
+
+  .gnb .m_home {
+    position: absolute;
+    display: block;
+    top: 10px;
+    float: right;
+    width: 90px;
+  }
+
+  .gnb .m_home a {
+    display: block;
+    padding: 10px;
+  }
+
+  .gnb .m_home a:before {
+    display: block;
+    content: '';
+    width: 153px;
+    height: 48px;
+    margin-left: 10px;
+    background: url('../image/logo_e.png') no-repeat;
+    background-size: 100%;
+  }
+
+  /* 햄버거 버튼 */
+  .open_gnb {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .open_gnb span {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: calc(50% - 1px);
+    left: calc(50% - 10px);
+    background: #05141f;
+    text-indent: -9999px;
+    transition: 0.4s;
+  }
+
+  .open_gnb span:before,
+  .open_gnb span:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #05141f;
+    transition: 0.4s;
+  }
+
+  .open_gnb span:before {
+    top: -5px;
+  }
+
+  .open_gnb span:after {
+    top: 5px;
+  }
+
+  /* 햄버거 버튼을 클릭했을때(.open적용) */
+  .open_gnb.open {
+    top: 0;
+    left: 310px;
+    z-index: 100
+  }
+
+  .open_gnb.open span {
+    background: transparent;
+  }
+
+  .open_gnb.open span:before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .open_gnb.open span:after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  .gnb>ul {
+    padding: 0;
+    float: none;
+  }
+
+  .gnb>ul>li {
+    float: none;
+    padding: 0
+  }
+
+  .gnb>ul>li>a {
+    line-height: 33px;
+  }
+
+  .gnb_nav {
+    float: none;
+    margin: 60px 0 0 0;
+  }
+
+  .dth1_1 {
+    float: none;
+    border-top: 1px solid #d1d1d1;
+  }
+
+  .dth1_a {
+    position: relative;
+    display: block;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    padding: 17px 0 0 25px;
+    height: 47px;
+  }
+
+  .gnb_nav {
+    float: none;
+    margin: 60px 0 0 0;
+  }
+}
+
+@media (max-width:960px){
+  form {
+    width:748px;
+  }
+  #choose {
+    left:0;
+    width:50%;
+  }
+  .grey {
+    text-align:center;
+    overflow:hidden;
+  }
+
+  .label {padding-left:16px;}
+  .center {
+    left:0;
+    width:456px;
+    height:566px;
+    left:-12px;
+    margin:auto;
+  }
+
+  input[type="text"]{
+    width:56%;
+    margin:30px;
+  }
+  textarea {
+    width:56%;height:auto;
+    padding:10px;
+    float:none;
+    position:relative;
+    top:-54px;
+    margin: 0 172px;
+    font-weight:bold;
+    
+  }
+}
+@media (max-width:500px){
+  .menu_bar h2 {
+    left: 0
+  }
+
+  .menu_bar h2 a {
+    position: relative;
+    width: 500px;
+    left: 48%;
+
+  }
+
+  .gnb {
+    width: 38%;
+    height: 833px;
+  }
+
+  .open_gnb.open {
+    top: 0;
+    left: 162px;
+    z-index: 100;
+  }
+
+  form {
+    width:492px;
+  }
+  #choose {
+    left:-15px;
+    width:75%;
+  }
+  .center {
+    margin:0;
+  }
+
+  .footer_menu {
+    width: 480px;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .footer img {
+
+    top: 100px;
+    left: 15px
+  }
+
+  .footer .footer_text {
+    padding-left: 10px;
+    width: 458px;
+    margin-top: 44px;
+  }
+
+}
+
+@media (max-width:420px){
+  .gnb {
+    width:51%;
+  }
+  .menu_bar h2 a {
+    left:37%;
+  }
+  
+  form {
+    width:368px;
+  }
+
+  #choose {left:0;
+  width:291px;}
+  label {
+    padding:0;
+    padding-top:23px;
+    width:77px;
+    font-size:18px;
+  }
+  textarea {
+    margin: 0 107px;
+  }
+  .footer {
+    background: #2d3a75;
+    height: 462px;
+}
+
+.footer img {
+  left: 21px;
+}
+  .footer_menu {
+    width: 334px;
+  }
+
+  .footer_menu li {
+    margin: 0;
+    padding: 0 5px;
+  }
+
+  .footer .footer_text {
+    width: 306px;
+    font-size: 12px;
+    padding-left: 32px;
+  }
+
+  .footer .cent {
+    width: 334px;
+  }
+
+  .footer img {
+    left: 26px
+  }
+  .icon .right {
+    margin:0;
+    bottom: -502px;
+    width: 446px;
+}
 }
