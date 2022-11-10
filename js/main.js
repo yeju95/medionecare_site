@@ -1,9 +1,5 @@
 var swiper = new Swiper(".swiper", {
     loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -14,24 +10,6 @@ var swiper = new Swiper(".swiper", {
     },
 });
 
-var swiper = new Swiper(".tenth_section.swiper", {
-    loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    autoplay: {
-        delay: 10000,
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		autoplaySpeed: 2000,
-        disableOnInteraction: false,
-    },
-});
 
 $(function(){
 
@@ -65,4 +43,6 @@ $('.open_gnb').click(function(){
     $(this).toggleClass('open');
     $('.gnb').slideToggle();
 });
+
+
 
