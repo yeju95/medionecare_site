@@ -489,6 +489,9 @@ transform: translate(2px, 2px);
   }
 
   .label {padding-left:16px;}
+  legend {
+    font-size:36px;
+    }
   .center {
     left:0;
     width:456px;
@@ -498,11 +501,11 @@ transform: translate(2px, 2px);
   }
 
   input[type="text"]{
-    width:56%;
+    width:54%;
     margin:30px;
   }
   textarea {
-    width:56%;height:auto;
+    width:54%;height:auto;
     padding:10px;
     float:none;
     position:relative;
@@ -579,7 +582,7 @@ transform: translate(2px, 2px);
   }
 
   #choose {left:0;
-  width:291px;}
+  width:301px;}
   label {
     padding:0;
     padding-top:23px;

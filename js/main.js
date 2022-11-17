@@ -38,6 +38,8 @@ $(function(){
 
 });
 
+
+
 //햄버거 버튼을 클릭하면
 $('.open_gnb').click(function(){
     $(this).toggleClass('open');

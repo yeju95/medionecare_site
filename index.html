@@ -34,7 +34,7 @@
             <li class="dth1_1"><a href="#fifth_section" class="dth1_a">서비스</a></li>
             <li class="dth1_1"><a href="#tenth_section" class="dth1_a">제휴사</a></li>
             <li class="dth1_1"><a href="#eleventh_section" class="dth1_a">함께하기</a></li>
-          </ul>
+          </ul><!--gnb_nav-->
         </nav>
         <!--gnb end-->
       </div>
@@ -43,12 +43,18 @@
   </div><!-- menu end-->
   <div class="swiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide d_hidden"><img src="image/main_1.jpg" alt=""></div>
-      <div class="swiper-slide d_hidden"><img src="image/main_2_.jpg" alt=""></div>
-      <div class="swiper-slide d_hidden"><img src="image/main_4_.jpg" alt=""></div>
-      <div class="swiper-slide m_hidden"><img src="image/main_1_m.jpg" alt=""></div>
-      <div class="swiper-slide m_hidden"><img src="image/main_2_m1.jpg" alt=""></div>
-      <div class="swiper-slide m_hidden"><img src="image/main_4_m.jpg" alt=""></div>
+      <div class="swiper-slide">
+        <img src="image/main_1.jpg" class="d_hidden" alt="">
+        <img src="image/main_1_m.jpg" class="m_hidden" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/main_2_.jpg" class="d_hidden" alt="">
+        <img src="image/main_2_m1.jpg" class="m_hidden" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/main_4_.jpg" class="d_hidden" alt="">
+        <img src="image/main_4_m.jpg" class="m_hidden" alt="">
+      </div>
     </div>
     <!--swiper-wrapper end-->
     <div class="swiper-pagination"></div>
@@ -64,7 +70,7 @@
         </div>
         <div class="map_text">
           <img src="./image/quotes_DOWN.png" alt="따옴표_왼" class="quotes">
-          <p><b>메디원케어</b>전국<br> <b>제휴병원</b>에서<br> <b>다양한 제휴서비스를<br> 이용</b> 하실 수 있습니다.</p>
+          <p><b>메디원케어</b><br>전국 <b>제휴병원</b>에서<br> <b>다양한 제휴서비스를<br> 이용</b> 하실 수 있습니다.</p>
           <img src="./image/quotes_UP.png" alt="따옴표_오" class="quotes">
         </div>
       </div>
@@ -181,8 +187,52 @@
         <!--progrem 3rd end-->
       </div>
       <!--second_box end-->
+      <div id="slider_a" class="second_box_slider">
+        <div class="slider_z second_box_images">
+          <div class="circle_medical">
+            <img src="./image/_eye_m.png" alt="">
+            <p>안과</p>
+          </div>
+          <div>
+            <img src="./image/hair_m.png" alt="">
+            <p>모발이식</p>
+          </div>
+          <div>
+            <img src="./image/_health_m.png" alt="">
+            <p>종합검진</p>
+          </div>
+          <div>
+            <img src="./image/_Infant_m.png" alt="">
+            <p>소아.발달심리</p>
+          </div>
+          <div>
+            <img src="./image/_teeth__m.png" alt="">
+            <p>치과</p>
+          </div>
+          <div>
+            <img src="./image/_skin_m.png" alt="">
+            <p>피부과</p>
+          </div>
+          <div>
+            <img src="./image/_old_m.png" alt="">
+            <p>요양병원</p>
+          </div>
+          <div>
+            <img src="./image/joint_m.png" alt="">
+            <p>척추/관절</p>
+          </div>
+          <div>
+            <img src="./image/_plastic surgery_m.png" alt="">
+            <p>성형외과</p>
+          </div>
+          <div>
+            <img src="./image/_pregnant woman_m.png" alt="">
+            <p>산부인과</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--second_section end-->
+      <!--second_section end-->
 
     <div id="third_section">
       <div class="third_text">
@@ -191,7 +241,7 @@
           의료복지를 제공할 수 있으며 운영에서 관리까지 <b>One-Step</b>으로 지원해 드립니다.</p>
       </div>
       <div class="third_img_box">
-        <div class="first">
+        <div class="third_section_first">
           <img src="image/third_section_1.png" alt="손사진">
           <p>
             기업에서<br>
@@ -200,7 +250,7 @@
         </div>
         <!--1st end-->
 
-        <div class="second">
+        <div class="third_section_second">
           <img src="image/third_section_2.png" alt="의료비용절감">
           <p>
             임직원의<br>
@@ -209,7 +259,7 @@
         </div>
         <!--2nd end-->
 
-        <div class="third">
+        <div class="third_section_third">
           <img src="image/third_section_3.png" alt="가족복지">
           <p>
             직원들의 가족까지<br>
@@ -218,7 +268,7 @@
         </div>
         <!--3rd end-->
 
-        <div class="fourth">
+        <div class="third_section_fourth">
           <img src="image/third_section_4.png" alt="진료과목">
           <p>
             12개의 진료과목, 약 170여개<br>
@@ -228,12 +278,30 @@
         <!--4th end-->
       </div>
       <!--third_img_box end-->
+      <div class="cen">
+        <div class="circle">
+          <div class="circle_1">
+            <img src="./image/eighth_1.png" alt="제휴">
+            <p>기업 및 병원 제휴</p>
+          </div>
+          <div class="circle_2">
+            <img src="./image/eighth_2.png" alt="개발">
+            <p>예약/상담/이벤트관리<br>
+              솔루션 개발 및 제공</p>
+          </div>
+          <div class="circle_3">
+            <img src="./image/eighth_3.png" alt="플랫폼">
+            <p>메디컬 제휴 플랫폼<br>
+              개발 및 운영</p>
+          </div>
+        </div>
+        <!--circle end-->
+      </div>
+      <!--cen end-->
     </div>
     <!--third_section-->
 
     <div id="fourth_section">
-
-      <h1>솔루션</h1>
       <div class="fourth_box">
         <div class="four_left">
           <h3>제휴병원 선정기준</h3>
@@ -263,22 +331,16 @@
         </div>
       </div>
       <!--fourth_box end-->
-      <!--<img src="./image/four_section_bg.png" alt="배경" class="four_bg">-->
     </div>
     <!--fourth_secion end-->
 
     <div id="fifth_section">
-      <h1>서비스 입점 절차</h1>
-      <img src="./image/fifth_icon.png" alt="아이콘">
-    </div>
-
-    <div id="sixth_section">
       <h2><span class="skyblue">나에게 맞는</span> <span class="blue">병원</span><br>
         선택하시기 힘드시죠?</h2>
-      <div class="six_img">
+      <div class="five_img">
         <img src="./image/sixth.png" alt="수치">
 
-        <div class="six_text">
+        <div class="fifth_text">
           <p>메디케어는 병원 선택 시
             필요한 다양한 고민을
             해결해 드립니다.<br><br>
@@ -294,92 +356,74 @@
           <p>※의료광고법 상 비급여 진료는 할인이 가능하며,
             최대할인은 49%까지 입니다.
           </p>
-        </div>
-      </div>
-    </div>
+        </div><!--fifth_text end-->
+      </div><!--five_img end-->
+    </div><!--fifth_section end-->
 
-    <div id="seventh_section">
+    <div id="sixth_section">
       <div class="cen_">
-        <h1>메디원케어</h1>
-        <p>메디컬 제휴플랫폼</p>
+        <h1>메디컬 제휴플랫폼</h1>
       </div>
-      <div class="seventh_img">
-        <div class="seventh_first">
+      <div class="sixth_title">
+        <p>나와 내 가족이 건강해야 일과 생활이 즐거워집니다.<br>
+          현명한 병원 선택의 기준, <b>'메디원케어</b>'
+        </p>
+      </div>
+      <div class="sixth_img">
+        <div class="sixth_first">
           <img src="./image/seventh_1.jpg" alt="건강복지제공">
           <p>직원들의 건강을 생각하는 기업<br>
             직원 및 가족을 위한 건강복지제공
           </p>
         </div>
-        <div class="seventh_second">
+        <div class="sixth_second">
           <img src="./image/seventh_2.jpg" alt="우대혜택">
           <p>전문성과 진료비를 고민하는 환자<br>
             가까운 제휴병원에서 비 급여 우대혜택
           </p>
         </div>
-        <div class="seventh_third">
+        <div class="sixth_third">
           <img src="./image/seventh_3.jpg" alt="외국인환자">
           <p>K메디컬을 이용하려는 외국인 환자<br>
             국내의료기관의 정보와 예약까지 동시에
           </p>
         </div>
-        <div class="seventh_fourth">
+        <div class="sixth_fourth">
           <img src="./image/seventh_4.jpg" alt="의료진">
           <p>신규환자와 매출을 걱정하는 병원<br>
             제휴환자 확보로 진료에 충실해지는 의료진
           </p>
         </div>
-      </div>
-      <div class="seventh_title">
-        <p>'나와 내 가족이 건강해야 일과 생활이 즐거워집니다.<br>
-          현명한 병원 선택의 기준,<b>메디원케어</b>'
-        </p>
+      </div><!--sixth_img end-->
+
+      <div id="seventh_section">
+        <h1>서비스 입점 절차</h1>
+        <img src="./image/fifth_icon.png" alt="아이콘">
       </div>
 
-      <!--seventh_img end-->
-      <div class="cen">
-
-        <div class="circle">
-          <div class="circle_1">
-            <img src="./image/eighth_1.png" alt="제휴">
-            <p>기업 및 병원 제휴</p>
-          </div>
-          <div class="circle_2">
-            <img src="./image/eighth_2.png" alt="개발">
-            <p>예약/상담/이벤트관리<br>
-              솔루션 개발 및 제공</p>
-          </div>
-          <div class="circle_3">
-            <img src="./image/eighth_3.png" alt="플랫폼">
-            <p>메디컬 제휴 플랫폼<br>
-              개발 및 운영</p>
-          </div>
-        </div>
-        <!--circle end-->
-      </div>
-      <!--cen end-->
     </div>
-    <!--seventh_section end-->
+    <!--sixth_section end-->
 
 
-    <div id="ninth_section">
+    <div id="eighth_section">
       <div class="cente">
         <h1>메디원케어는</h1>
         <p><b>인터넷 접속이 가능한 모든 기기</b>에서 이용 가능합니다.</p>
-        <div class="nine_img">
+        <div class="eight_img">
           <img src="./image/ninth_mobile.png" alt="모바일">
 
-          <div class="nine_text">
+          <div class="eight_text">
             <p><em>언제 어디서든 <u><b>실시간으로</b></u></em></p>
             <img src="./image/search.png" alt="text">
           </div>
         </div>
-        <!--nine_img end-->
+        <!--eight_img end-->
       </div>
       <!--cente end-->
     </div>
-    <!--ninth_section end-->
+    <!--eighth_section end-->
 
-    <div id="tenth_section">
+    <div id="ninth_section">
       <div class="hospital">
         <h1>제휴병원</h1>
         <p>Affiliated Hospitals</p>
@@ -456,12 +500,11 @@
       </div>
       <!--partners end-->
     </div>
-    <!--tenth_section end-->
+    <!--ninth_section end-->
 
-    <div id="eighth">
-      <h1>오시는길</h1>
+    <div id="tenth">
       <div class="cene">
-        <div class="eighth_text">
+        <div class="tenth_text">
           <ul>
             <li>
               <img src="image/telephone_.png" width="40" height="40" alt="">
@@ -483,14 +526,12 @@
         <div class="right_img">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.120522517048!2d127.118866415568!3d37.528656134053975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca512af972933%3A0x8f19d914c5f8b604!2zKOyjvCnruIzrpqzspojsiqTthqDrpqw!5e0!3m2!1sko!2skr!4v1667393617267!5m2!1sko!2skr"
-            width="700" height="500" style="border:5px solid #FFF;" allowfullscreen="" loading="lazy"
+            width="700" height="500" style="border:none;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <!--<div id="map"></div>
-            <img src="image/map.png" alt="">-->
         </div>
 
       </div>
-    </div>
+    </div>    <!--tenth_section end-->
     <div id="eleventh_section">
       <div class="together">
         <div class="eleventh_text">
@@ -550,9 +591,10 @@
 
 
 </body>
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn80UaKmA5OsBR_5IGv5SyGEk721GLP94&callback=initMap"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/main.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn80UaKmA5OsBR_5IGv5SyGEk721GLP94&callback=initMap"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+
 </html>
