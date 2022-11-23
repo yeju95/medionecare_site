@@ -237,6 +237,10 @@ img.m_hidden {
   text-align: center;
   background: #dfe6f5;
   height: 400px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .hos {
@@ -309,7 +313,7 @@ img.m_hidden {
   font-weight: 900;
 }
 
- .ani {
+.ani {
   animation: rotation 2s infinite alternate ease;
 }
 
@@ -319,7 +323,7 @@ img.m_hidden {
     transform: rotateY(360deg)
   }
 
- /*0%{transform:rotateY(0)}5%{transform:rotateY(360deg)
+  /*0%{transform:rotateY(0)}5%{transform:rotateY(360deg)
   }10%{transform:rotateY(0)}15%{transform:rotateY(360deg)
   }20%{transform:rotateY(0)}25%{transform:rotateY(360deg)
   }30%{transform:rotateY(0)}35%{transform:rotateY(360deg)
@@ -413,7 +417,7 @@ img.m_hidden {
 }
 
 .second_box_slider {
-  display:none;
+  display: none;
 }
 
 
@@ -437,12 +441,15 @@ img.m_hidden {
   position: relative;
   margin-bottom: 52px;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .third_section_first,
 .third_section_second {
   display: inline-block;
-  margin: 50px;
+  margin: 25px;
 }
 
 .third_section_third {
@@ -450,6 +457,7 @@ img.m_hidden {
   position: relative;
   margin-right: 112px;
 }
+
 .third_section_fourth {
   display: inline-block;
   margin-left: -47px;
@@ -474,11 +482,13 @@ img.m_hidden {
 }
 
 
-.circle {}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #third_section .circle_1 {
-  position: relative;
-  top: -27px;
 }
 
 #third_section .circle_1,
@@ -507,93 +517,77 @@ img.m_hidden {
 #fourth_section {
   background: #3d5a80;
   height: 100%;
-  z-index: 10;
 }
 
 .fourth_box {
-  width: 56%;
   height: 500px;
-  position: relative;
   margin: auto;
-  margin-top: 100px;
-  display: table;
-  z-index: 100;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff
 }
 
 .four_left {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  color: #fff;
-  height: 200px;
-  width: 250px;
+  width:251px;
+  height:232px;
+  margin-right:52px;
 }
+
 .four_left h3 {
   font-size: 30px;
   text-align: center;
-  position: absolute;
-  top: 95px
 }
+
 .four_left_text {
   width: 210px;
+  margin:auto
 }
+
 .four_left p {
   line-height: 30px;
-  text-align: center;
-  bottom: -53px;
 }
 
 .four_middle {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  margin: 30px;
+  margin: 60px 50px 30px;
   color: #fff;
-  height: 200px;
   width: 250px;
 }
+
 .four_middle h3 {
   font-size: 30px;
-  position: relative;
-  top: -23px;
+  text-align:center;
 }
+
 .four_middle_text {}
 
 .four_middle p {
-  padding-top: 10px;
   line-height: 29px;
-  text-align: center;
   bottom: -30px;
 }
 
 .four_right {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  color: #fff;
-  height: 200px;
   width: 250px;
+  margin-left:20px;
+  height:228px;
 
 }
 
 .four_right h3 {
-  position: relative;
   font-size: 30px;
-  top: -42px;
   text-align: center;
 
 }
-.four_right_text{}
+
+.four_right_text {}
+
 .four_right p {
-  bottom: -17px;
+
 }
 
 .v-line {
   border-left: medium solid #fff;
   height: 331px;
-  position: absolute;
-  top: 91px;
-  margin: 0 28px;
 }
 
 .four_left p,
@@ -602,12 +596,11 @@ img.m_hidden {
   padding: 20px;
   font-size: 20px;
   text-align: center;
-  position: relative;
 }
 
 
 #fifth_section {
-  width: 1180px;
+  width: 100%;
   height: 900px;
   margin: auto;
 }
@@ -640,7 +633,7 @@ img.m_hidden {
 #fifth_section .fifth_text {
   display: inline-block;
   position: relative;
-  top: 172px;
+  top: 118px;
 }
 
 #fifth_section .fifth_text .line {
@@ -670,14 +663,14 @@ img.m_hidden {
 }
 
 .sixth_img {
-  width: 1423px;
+  width:1000px;
   margin: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sixth_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .sixth_title p {
@@ -693,7 +686,7 @@ img.m_hidden {
 .sixth_third,
 .sixth_fourth {
   display: inline-block;
-  padding: 25px;
+  padding: 25px 10px;
   margin: auto;
 }
 
@@ -719,24 +712,26 @@ img.m_hidden {
 
 
 #sixth_section .cen_ {
-  width: 1100px;
   margin: auto;
   text-align: center;
 }
 
 #seventh_section {
-height:100%;
-text-align:center;
+  height: 100%;
+  text-align: center;
 }
+
 #seventh_section h1 {
-  padding-top:87px;
+  padding-top: 87px;
 
 }
+
 #seventh_section img {
-margin-top:100px;
-  width:1000px;
+  margin-top: 100px;
+  width: 1000px;
 
 }
+
 #eighth_section {
   background: #edf5fb;
 }
@@ -760,14 +755,14 @@ margin-top:100px;
 #eighth_section .eight_img {
   margin-top: 100px;
   padding-bottom: 145px;
+  display:flex;
+  justify-content: center;
+  align-items: center;;
 }
 
 .eight_text {
-  display: inline-block;
   text-align: center;
-  position: absolute;
-  right: 27%;
-  margin-top: 100px;
+margin-left:100px;
 }
 
 .mid {
@@ -1130,7 +1125,7 @@ margin-top:100px;
     top: 0;
     left: 0;
     width: 375px;
-    height: auto;
+    height: 1000px;
     background: #fff;
     z-index: 10;
   }
@@ -1262,8 +1257,36 @@ margin-top:100px;
   }
 
   .map_text {
-    right: 2%
+      right: -6%;
+      float: none;
   }
+
+  .sixth_section {
+    background-size:100% 1538px;
+    height:1512px;
+  
+  }
+  #seventh_section h1 {
+    padding-top: 50px;
+    font-size: 38px;
+}
+  #seventh_section img {
+    margin-top: 22px;
+    width: 100vh;
+}
+  .sixth_first,
+.sixth_second,
+.sixth_third,
+.sixth_fourth {
+  padding: 25px;
+}
+  .sixth_img {
+    width: 853px;
+    margin: auto;
+    text-align: center;
+    display: block;
+
+}
 
 }
 
@@ -1274,7 +1297,14 @@ margin-top:100px;
   }
 
   .second_box {
-    left: -104px;
+    left: -3%;
+  }
+  .third_section_fourth img {
+    width:145px;
+    height:155px;
+  }
+  .third_img_box p {
+    font-size:16px;
   }
 
   #third_section {
@@ -1292,9 +1322,15 @@ margin-top:100px;
   .third_img_box img {
     width: 145px
   }
-
+#third_section .cen {
+  width:100%;
+}
+#third_section .circle_1 img, #third_section .circle_2 img, #third_section .circle_3 img {
+  width: 200px;
+  height: 200px;
+}
   #fourth_section {
-    height: 1549px;
+    height: 1235px;
   }
 
   .fourth_box {
@@ -1317,19 +1353,20 @@ margin-top:100px;
     top: 100px;
     margin: auto;
   }
+
   .four_left h3 {
     position: relative;
     top: 0;
   }
 
   .four_left p {
-    text-align: left;
   }
 
   .four_middle {
     display: block;
     width: 400px;
     height: 342px;
+    margin:60px 26px 30px;
   }
 
   .four_middle p {
@@ -1351,14 +1388,63 @@ margin-top:100px;
   }
 
   .four_right p {
-    margin-left: 41px;
+  }
+  .four_left_text ,.four_middle_text ,.four_right_text {
+    margin-top:27px;
+    width:100%;
+  }
+  #eighth_section .cente {
+    width: 500px;
   }
 
+  #eighth_section p {
+    font-size: 12px;
+  }
 
+  #eighth_section .eight_img {
+    display:block;
+    margin: 50px 100px;
+  }
+
+  .eight_img img {
+    width: 300px;
+    margin: auto
+  }
+
+  .eight_text {
+    display: block;
+    margin: 50px 28px;
+    right: 0;
+  }
+
+  .eight_text img {
+    width: 200px
+  }
+
+  #eighth_section .eight_text p {
+    font-size: 18px;
+  }
+
+}
+@media (max-width:1050px) {
+  .second_box {
+    left: -6%;
+  }
+}
+@media (max-width:980px) {
+  .second_box {
+    left: -10%;
+  }
 }
 
 @media (max-width:953px) {
-
+  .map_text {
+    right:0;
+    width:337px;
+  }
+  .map_text p {
+    font-size:36px;
+  }
   .hos,
   .event,
   .ent {
@@ -1372,10 +1458,72 @@ margin-top:100px;
     margin: 64px 19px;
   }
 
+
 }
 
 
+@media(max-width:900px){
+  #second_section {
+    height:600px;
+    background-size:100% 827px;
+  }
+  .second_box_slider {
+    display: block;
+    margin-top:148px;
+    width:549px;
+    overflow:hidden;
+  }
 
+  .second_box {
+    display: none;
+  }
+  .second_box_images {
+    text-align: center;
+    font-size: 19px;
+
+  }
+
+  .circle_medical {
+    width: 300px;
+  }
+
+  .second_box_images img {
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .second_box_images p {
+    margin-top: 14px;
+    font-size: 21px;
+  }
+  .third_img_box {
+    margin-top: 0;
+    display: block;
+  }
+  .circle {
+    display: block;
+}
+#third_section .circle_1 {
+  position:relative;
+  top:-18px;
+}
+.sixth_img {
+width:500px;
+}
+.sixth_section {
+  background-size: 500px 1960px;
+  height: 1920px;}
+
+  #tenth .right_img {
+    float: none;
+}
+  .right_img iframe {
+    width: 350px;
+  }
+  .together{
+    width:870px;
+  }
+}
 
 
 
@@ -1419,7 +1567,7 @@ margin-top:100px;
 
   .map {
     padding: 0;
-    width:360px;
+    width: 360px;
   }
 
   .map_img img {
@@ -1474,28 +1622,27 @@ margin-top:100px;
     height: 570px;
     background-size: 100% 589px;
   }
-  .second_box_slider {
-    display: block;
-}
-  .second_box {
-    display:none;
-  }
+
+ 
 
   .second_box_images {
-    text-align:center;
-    font-size:19px;
-    
+    text-align: center;
+    font-size: 19px;
+
   }
-  .circle_medical{
-  width:300px;
+
+  .circle_medical {
+    width: 300px;
   }
+
   .second_box_images img {
-    background:#fff;
-    border-radius:50%;
+    background: #fff;
+    border-radius: 50%;
   }
+
   .second_box_images p {
-    margin-top:14px;
-    font-size:21px;
+    margin-top: 14px;
+    font-size: 21px;
   }
 
   .third_text p {
@@ -1503,47 +1650,64 @@ margin-top:100px;
   }
 
   .third_img_box {
-    margin-top:0;
+    margin-top: 0;
+    display: block;
   }
+
+  .third_section_first,
+  .third_section_second {
+    margin: 50px;
+  }
+
   .third_section_third {
     margin-right: 0;
-    position:relative;
-    bottom:-43px;
-  }  
+    position: relative;
+    bottom: -43px;
+  }
+
   .third_section_fourth {
     float: right;
     margin-left: 0;
     margin-right: 25px;
-    
+
   }
+
   .third_section_fourth img {
     height: 142px;
-    margin-top:1px;
-}
+    margin-top: 1px;
+  }
+
   #third_section .cen {
-    width:100%;
+    width: 100%;
     margin: auto;
     text-align: center;
-}
-#third_section .circle_1 img, #third_section .circle_2 img, #third_section .circle_3 img {
-  width: 200px;
-  height: 200px;
-}
-#third_section .circle_1 {
- top: 0
-}
-#third_section .circle_2 {
-  position: relative;
- top:19px;
-}
-#third_section .circle_3 {
-margin-top:30px;
-}
+  }
+
+  #third_section .circle_1 img,
+  #third_section .circle_2 img,
+  #third_section .circle_3 img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #third_section .circle_1 {
+    top: 0
+  }
+
+  #third_section .circle_2 {
+    position: relative;
+    top: 19px;
+  }
+
+  #third_section .circle_3 {
+    margin-top: 30px;
+  }
 
 
-#fourth_section {
-  height: 1180px;
-}
+  #fourth_section {
+    height: 1180px;
+  }
+
   .fourth_box {
     padding-top: 76px;
   }
@@ -1553,21 +1717,26 @@ margin-top:30px;
     position: relative;
     width: 118px;
     height: 224px;
-    line-height:40px;
+    line-height: 40px;
     float: right;
     margin: auto;
     display: flex;
     align-items: center;
+    font-size: 25px;
   }
 
   .four_left {
     top: 35px;
-    height:350px;
+    height: 350px;
   }
+  .four_left_text {
+    margin: 0;
+}
 
   .four_left h3 {
     top: 0;
   }
+
   .four_left p {
     top: 0;
   }
@@ -1581,20 +1750,24 @@ margin-top:30px;
     float: left;
     left: -10px;
   }
+
   .four_middle_text {
     float: right;
-}
+  }
+
   .four_middle p {
-    bottom:0;
+    bottom: 0;
     margin-top: 6px;
   }
+
   .four_right {
-    height:350px;
+    height: 350px;
   }
+
   .four_right h3 {
-    top:0
+    top: 0
   }
-  
+
 
   .four_left_text,
   .four_middle_text,
@@ -1603,15 +1776,16 @@ margin-top:30px;
     color: #2d3a75;
     position: relative;
     border-radius: 7px;
-    width:236px;
-    height:214px;
-    padding:10px;
+    width: 236px;
+    height: 214px;
+    padding: 10px;
   }
 
   .four_left p,
   .four_middle p,
   .four_right p {
     font-size: 16px;
+    font-weight: bold;
     padding: 20px 0;
     text-align: center;
     margin-left: 0;
@@ -1681,7 +1855,7 @@ margin-top:30px;
 
   .circle {
     padding: 0;
-    margin-bottom:145px;
+    margin-bottom: 145px;
   }
 
   #sixth_section .circle_1,
@@ -1709,40 +1883,15 @@ margin-top:30px;
   #seventh_section img {
     padding-top: 0;
     width: 500px;
-    margin-top:30px;
+    margin-top: 30px;
   }
 
-  #eighth_section .cente {
-    width: 500px;
-  }
 
-  #eighth_section p {
-    font-size: 12px;
-  }  
-  #eighth_section .eight_img {
-    margin: 50px 100px;
-  }
 
-  .eight_img img {
-    width: 300px;
-    margin: auto
-  }
-
-  .eight_text {
-    display: block;
-    margin: 50px 151px;
-    right: 0;
-  }
-
-  .eight_text img {
-    width: 200px
-  }
-  #eighth_section .eight_text p {
-    font-size: 18px;
-  }
   #ninth_section {
     height: 933px;
   }
+
   #slider_a {
     width: 276px;
     overflow: hidden;
@@ -1764,30 +1913,32 @@ margin-top:30px;
     margin-top: 48px;
   }
 
- #slider .sliders {
+  #slider .sliders {
     width: 1013px;
   }
 
   #tenth {
     height: 1086px;
-}
+  }
+
   .tenth_text h3 {
     font-size: 25px;
-}
+  }
+
   #tenth .right_img {
     position: absolute;
     top: 89px;
-    left:5%;
+    left: 5%;
   }
 
   .right_img iframe {
     width: 350px;
-}
+  }
 
   .tenth_text {
     position: absolute;
     top: 655px;
-    width:396px;
+    width: 396px;
   }
 
   .tenth_text img {
@@ -1798,13 +1949,15 @@ margin-top:30px;
     width: 55px
   }
 
-   #eleventh_section {
+  #eleventh_section {
     height: 700px;
   }
+
   .together {
     width: 500px;
     padding-top: 247px;
-  } 
+  }
+
   #eleventh_section .together img {
     position: relative;
     top: -304px;
@@ -1874,6 +2027,7 @@ margin-top:30px;
   }
 
   .count {
+    display:block;
     height: 400px;
     padding: 30px;
   }
@@ -1899,7 +2053,7 @@ margin-top:30px;
   }
 
   #second_section {
-    position:relative;
+    position: relative;
     height: 480px;
   }
 
@@ -1910,6 +2064,7 @@ margin-top:30px;
   .third_img_box {
     width: 303px;
     margin-top: 56px;
+    display: block;
   }
 
   .third_img_box p {
@@ -1938,6 +2093,7 @@ margin-top:30px;
     height: 116px;
     width: 121px;
   }
+
   #third_section .cen {
     width: 315px;
     margin: 0;
@@ -1980,6 +2136,7 @@ margin-top:30px;
   #fourth_section {
     height: 770px;
   }
+
   .fourth_box {
     width: 360px;
     margin-top: 0;
@@ -1989,7 +2146,7 @@ margin-top:30px;
     top: 0;
     margin-bottom: 40px;
     height: 178px;
-    left:0;
+    left: 0;
   }
 
   .four_left_text,
@@ -2000,12 +2157,13 @@ margin-top:30px;
     height: 190px;
     padding: 0;
   }
+
   .four_left p,
   .four_middle p,
   .four_right p {
     padding: 0;
     bottom: 0;
-    font-size:12px;
+    font-size: 12px;
   }
 
   .four_left {
@@ -2013,33 +2171,44 @@ margin-top:30px;
     top: 0;
     height: 167px;
   }
+
   .four_left h3 {
     margin-left: 0;
     margin-bottom: 40px;
   }
-.four_left p {padding: 16px 0;}
+
+  .four_left p {
+    padding: 16px 0;
+  }
+
   .four_middle {
     width: 312px;
     height: 183px;
   }
-  .four_middle h3 {margin-bottom: 0px;
+
+  .four_middle h3 {
+    margin-bottom: 0px;
     position: relative;
-    top: 31px;}
-.four_middle p {
+    top: 31px;
+  }
+
+  .four_middle p {
     padding: 15px 0;
     font-size: 11px;
-}
+  }
+
   .four_right {
     width: 312px;
     height: 167px;
     position: relative;
     top: 30px;
   }
+
   .four_right p {
     padding: 25px 0;
-}
+  }
 
-  
+
 
 
 
@@ -2057,22 +2226,26 @@ margin-top:30px;
     width: 312px;
     padding-top: 20px;
   }
+
   #fifth_section .five_img {
     margin: auto;
     width: 360px;
-}
+  }
 
   #fifth_section .fifth_text p {
     width: 266px;
   }
+
   #sixth_section {
     background-size: 472px 1797px;
     height: 1731px;
-}
-  .sixth_title p {
-    margin:0;
-    font-size:13px;
   }
+
+  .sixth_title p {
+    margin: 0;
+    font-size: 13px;
+  }
+
   #sixth_section .cen_ {
     width: 297px;
   }
@@ -2082,7 +2255,7 @@ margin-top:30px;
   }
 
 
-#seventh_section {
+  #seventh_section {
     height: 434px;
   }
 
@@ -2093,23 +2266,25 @@ margin-top:30px;
 
   #eighth_section .cente {
     width: 365px;
-    height:900px;
-}
+    height: 900px;
+  }
 
   #eighth_section .eight_img {
     margin: 50px 30px;
-}
+  }
 
   .eight_text {
-    margin: 50px 84px;
-  }
+    margin: 50px 0;
+}
 
   #eight_section .eight_text p {
     font-size: 18px;
   }
+
   #ninth_section {
     height: 730px;
   }
+
   .partners {
     background: #edf5fb;
     position: relative;
@@ -2134,14 +2309,16 @@ margin-top:30px;
   #tenth {
     height: 1063px;
   }
+
   #tenth .cene {
-    width:360px;
-    margin: auto;}
+    width: 360px;
+    margin: auto;
+  }
 
   .tenth_text {
     margin: 0;
     top: 616px;
-    width:100%;
+    width: 100%;
   }
 
   #tenth .right_img {
@@ -2168,7 +2345,7 @@ margin-top:30px;
 
   #eleventh_section .together img {
     width: 300px;
-      top: -362px;
+    top: -362px;
   }
 
   .eleventh_text p {
